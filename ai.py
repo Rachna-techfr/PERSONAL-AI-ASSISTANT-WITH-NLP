@@ -47,6 +47,9 @@ def open_application(command):
     elif "notepad" in command:
         os.system("notepad")
         return "Opening Notepad"
+    elif "whatsapp" in command:
+        os.system("start shell:AppsFolder\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App")
+        return "Opening WhatsApp"
     elif "calculator" in command:
         os.system("calc")
         return "Opening Calculator"
